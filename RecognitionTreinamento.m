@@ -22,7 +22,7 @@ Entrada = [0 0 1 1 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 0
            0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0; 
            0 1 1 1 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 1 1 1 0 0; 
            0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0; 
-           1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0];
+           1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0]';
 
 % Função de Saída
 Desejado = [0 1 2 3 4 5 6 7 8 9 11 22 33 44 55 66];
@@ -31,7 +31,7 @@ disp (Entrada)
 disp (Desejado)
 
 %Quantidades de neur?nios na camada de Entrada In
-In = 16;
+In = 49;
 
 %Quantidade de neur?nios na camada Escondida H
 H = 5;
@@ -43,7 +43,7 @@ Out = 1;
 eta = 0.0002;
 
 %Quantidade de Épocas
-Epocas = 12600;
+Epocas = 2000;
 
 %Se a fun??o de ativa??o ? linear, ent?o Defini-se o valor da constante k.
 k = 1; 
